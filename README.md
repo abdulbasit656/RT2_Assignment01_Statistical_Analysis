@@ -1,12 +1,20 @@
 # RT2_Assignment01_Statistical_Analysis
 This is the Statistical Analysis of the Python Robotics Simulator.
 
+Abstract
+================================
+This report is about conducting a statistical analysis to assess the better performance of two unique algorithms (my algorithm and my professor’s algorithm) in completing a given task. The exact assignment in this case is a pygame simulation of a robot with the goal of completing laps of the designated track (circuit), while periodically carrying silver tokens through its lifting mechanism to a point behind it as it moves through the circuit. This statistical analysis of the behaviour of two alternative algorithms is based on Python Robotics Simulator for the first assignment of Research Track I.
+
 Introduction
 ================================
 This analysis is about the statistically analysis to determine the superiority between two distinct algorithms (my algorithm and professor's algorithm) in accomplishing a specific task. The specific task in this case is a simulation of a robot in a pygame environment with the objective of completing laps through the designed track (circuit), while occasionally moving silver tokens through its lifting mechanism to a spot behind it, as it makes its way through the circuit. For this analysis, Jupyter Notebook is used to compute the statistical analysis of the behaviour of two different algorithms for the first assignment of Research Track I based on Python Robotics Simulator.
 This is a simple, portable robot simulator developed by [Student Robotics](https://studentrobotics.org).
 
-Installing and running
+The aim of this project was to code a Python script capable of making a simulated holonomic robot sequentially grasp and released some targets (Silver tokens) inside of an arena composed of golden tokens. This Assignment aims at comparing and testing the Behaviour of the robot considering two different implementations of the code:
+- My Code Repository
+- Professor’s Code Repository
+
+Installing
 ----------------------
 
 The simulator requires a Python 2.7 installation, the [pygame](http://pygame.org/) library, [PyPyBox2D](https://pypi.python.org/pypi/pypybox2d/2.1-r331), and [PyYAML](https://pypi.python.org/pypi/PyYAML/).
@@ -300,6 +308,11 @@ def main():
 main()
 ```
 
-Conclusion
+Conclusion & Improvments
 -------------------
-Overall, I'm satisfied with the work I've done because it allowed me to learn a lot about Python programming and regarding to the concepts that are in this kind of work, I started to learn something about the logic with which a robot has to decide to move itself in a 2D environment. Furthermore i also learned a lot about github platform and its necessity to save work.
+The main objective of this statistical part of the project is to find particular differences between my code and professor code that “guide” the robot inside the environment. I have taken lots of data, making sure to have the same condition during the acquisition, since I know results are non-deterministic, so I wanted to decrease the inconsistencies due to the performances of the PC (even if there are).
+
+There are main improvements that I came up with, which are:
+
+- Provide better interface for sequentially setting the goal
+- Develop more structured code
