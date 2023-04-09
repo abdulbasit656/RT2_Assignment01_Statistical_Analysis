@@ -1,11 +1,10 @@
 # RT2_Assignment01_Statistical_Analysis
 This is the Statistical Analysis of the Python Robotics Simulator.
 
-Python Robotics Simulator
+Introduction
 ================================
-
+This analysis is about the statistically analysis to determine the superiority between two distinct algorithms (my algorithm and professor's algorithm) in accomplishing a specific task. The specific task in this case is a simulation of a robot in a pygame environment with the objective of completing laps through the designed track (circuit), while occasionally moving silver tokens through its lifting mechanism to a spot behind it, as it makes its way through the circuit. For this analysis, Jupyter Notebook is used to compute the statistical analysis of the behaviour of two different algorithms for the first assignment of Research Track I based on Python Robotics Simulator.
 This is a simple, portable robot simulator developed by [Student Robotics](https://studentrobotics.org).
-Some of the arenas and the exercises have been modified for the Research Track I course
 
 Installing and running
 ----------------------
